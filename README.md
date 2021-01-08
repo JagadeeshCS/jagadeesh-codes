@@ -24,4 +24,4 @@ def exp():
     p = 0
     p = x**y
     print(x,"power",y,"=",p)
-print(exp())
+
