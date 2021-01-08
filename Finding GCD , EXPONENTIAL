@@ -1,4 +1,5 @@
-# jagadeesh-codes
+# finding gcd
+
 def gcd(x,y):
     small = min(x,y)
     for i in range(1,small):
@@ -6,17 +7,24 @@ def gcd(x,y):
             gcd = i
     return gcd
 
+
+# finding gcd ( by euclid method )
+
 def euclid(x,y):
     while y:
         x, y = y, x%y
 
     return x
 
+# finding Exponential
+
 def expo(x,y):
     if y == 0:
         return 1
     else:
         return x * expo(x,y-1)
+
+# finding Exponential (My method)
 
 def exp():
     x = int(input("enter base value:"))
